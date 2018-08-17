@@ -2,8 +2,8 @@
 
 Basic Excel spreadsheet
 Implement a basic spreadsheet which will have the following functionality:
-● The excel sheet should have m x n cells in the sheet.
-● Should have ability to add/remove rows or columns to/from the existing sheet.
+● The excel sheet should have m x n cells in the sheet. <br />
+● Should have ability to add/remove rows or columns to/from the existing sheet.<br />
 ● Clicking on each cell should make it editable and clicking anywhere else should switch it back to a read-only mode.
 ● Should have the ability to sort data.
 ● Build a cut/copy/paste functionality over the spreadsheet.
