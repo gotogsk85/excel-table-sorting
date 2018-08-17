@@ -1,0 +1,73 @@
+
+body {
+  font-size: 18px;
+}
+
+.cell-item {
+  border: 1px solid #eee;
+  display: inline-flex;
+  box-sizing: border-box;
+  width: 250px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.cell-item span {
+  display: block;
+  width: inherit;
+  height: inherit;
+  text-align: center;
+  line-height: 50px;
+  font-size: inherit;
+}
+
+.cell-item span:hover {
+  cursor: pointer;
+}
+
+.cell-item input {
+  display: none;
+  border: 1px solid gray;
+  height: 80%;
+  width: 80%;
+  TEXT-ALIGN: center;
+  padding: 0 10px;
+  font-size: inherit;
+}
+
+.input-container {
+  width: 100%;
+  border-bottom: 1px solid #000;
+}
+
+.input-container input {
+  width: 200px;
+  height: 25px;
+  margin-top: 20px;
+}
+
+#table-container {
+  width: max-content;
+  margin: 30px auto 0px auto;
+}
+
+.row-item {
+  height: 50px;
+}
+button {
+  margin: 0 auto;
+}
+
+.desc-sort {
+  display: none;
+}
+
+#sort-headers .cell-item {
+  position: relative;
+}
+
+#sort-headers a {
+  position: absolute;
+  right: 10px;
+}
